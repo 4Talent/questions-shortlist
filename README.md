@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm install --save questions-shortlist
+npm install --save 4talent-questions-shortlist
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ npm install --save questions-shortlist
 ```jsx
 import React, { Component } from "react";
 
-import Questions from "questions-shortlist";
+import Questions from "4talent-questions-shortlist";
 
 class Example extends Component {
   render() {
@@ -29,7 +29,7 @@ If you want to track the weighing og the question, the only thing you have to do
 ```jsx
 import React, { Component } from "react";
 
-import Questions from "questions-shortlist";
+import Questions from "4talent-questions-shortlist";
 
 class Example extends Component {
   render() {
