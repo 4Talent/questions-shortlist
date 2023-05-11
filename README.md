@@ -38,6 +38,7 @@ class Example extends Component {
 }
 ```
 
+If you want to have the component on the old Spanish translation, set a cookie 'my_locale' with the value 'es_negative'
 If you want to have the component on English, set a cookie 'my_locale' with the value 'en'
 
 ## DEVELOP
@@ -98,7 +99,7 @@ const questions = [
         options: ["1", "2", "3", "4"]
       },
       {
-        killer_value: "Si",
+        killer_value: "Sí",
         killer_condition: "==",
         description: "text",
         value_type: "boolean",

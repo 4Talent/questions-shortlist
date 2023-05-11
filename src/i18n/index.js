@@ -1,6 +1,6 @@
 import i18n from 'i18next';
 // import LanguageDetector from 'i18next-browser-languagedetector';
-import { es, en } from './locales/index.js';
+import { es, es_negative, en } from './locales/index.js';
 
 i18n.init({
   interpolation: {
@@ -14,6 +14,9 @@ i18n.init({
   resources: {
     es: {
       common: es.es,
+    },
+    es_negative: {
+      common: es_negative.es,
     },
     en: {
       common: en.en,

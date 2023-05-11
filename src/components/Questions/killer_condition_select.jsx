@@ -64,23 +64,23 @@ const KillerConditionSelect = props => {
         label: t("questions.select_options.killer_condition_types.isnt_option")
       },
       {
-        value: "are_options?",
-        label: t("questions.select_options.killer_condition_types.are_options")
-      },
-      {
         value: "arent_options?",
         label: t(
           "questions.select_options.killer_condition_types.arent_options"
         )
       },
       {
+        value: "none_choice?",
+        label: t("questions.select_options.killer_condition_types.none_choice")
+      },
+      {
+        value: "are_options?",
+        label: t("questions.select_options.killer_condition_types.are_options")
+      },
+      {
         value: "some_option?",
         label: t("questions.select_options.killer_condition_types.some_option")
       },
-      {
-        value: "none_choice?",
-        label: t("questions.select_options.killer_condition_types.none_choice")
-      }
     ];
     let options = [];
 

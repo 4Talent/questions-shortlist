@@ -223,6 +223,8 @@ class AnswerInput extends React.Component {
         return !!_.intersection(answer_set, kv_set).length;
       case "isnt_option?":
         return !_.intersection(answer_set, kv_set).length;
+      case "none_choice?":
+        return _.intersection(answer_set, kv_set).length === 0;
       default:
         return false;
     }

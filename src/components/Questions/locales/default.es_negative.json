@@ -13,20 +13,20 @@
         "audio": "Audio"
       },
       "killer_condition_types": {
-        "smaller_than": "Mayor o igual que",
-        "less_than_or_equal_to": "Mayor que",
-        "equal": "Distinto que",
-        "distinct": "Exactamente igual que",
-        "greater_than": "Menor o igual que",
-        "greater_than_or_equal": "Menor que",
-        "between": "Fuera del rango",
-        "not_between": "En el rango",
-        "is_option": "La opción no esté presente",
-        "isnt_option": "La opción esté presente",
-        "are_options": "ninguna de las opciones esté presente (todas)",
-        "arent_options": "todas las opciones estén presentes",
-        "some_option": "ninguna de las opciones esté presente",
-        "none_choice": "alguna de las opciones esté presente"
+        "smaller_than": "Menor Que",
+        "less_than_or_equal_to": "Menor o Igual Que",
+        "equal": "Igual Que",
+        "distinct": "Distinto que",
+        "greater_than": "Mayor Que",
+        "greater_than_or_equal": "Mayor o Igual Que",
+        "between": "Dentro del rango",
+        "not_between": "Fuera del rango",
+        "is_option": "La selección esté presente en las opciones de descarte",
+        "isnt_option": "La selección no esté presente en las opciones de descarte",
+        "are_options": "El conjunto de opciones de descarte esté presente",
+        "arent_options": "El conjunto de opciones de descarte no esté presente",
+        "some_option": "Alguna opción del conjunto de descarte esté presente",
+        "none_choice": "Ninguna opción del conjunto de descarte esté presente"
       }
     },
     "html_helpers": {
@@ -49,7 +49,7 @@
       "others": "Preguntas de descarte",
       "one": "Pregunta",
       "boolean_option": {
-        "positive": "Sí",
+        "positive": "Si",
         "negative": "No"
       },
       "range_option": {
@@ -68,17 +68,17 @@
     "attributes": {
       "description": "Texto de la pregunta a realizar",
       "weighing": "Peso de la pregunta",
-      "killer_condition": "Aprobar cuando sea (o esté)...",
-      "killer_condition_multiple": "Aprobar cuando...",
-      "killer_value": "Valor para aplicar la condición",
-      "killer_value_multiple": "Opciones para aplicar la condición",
+      "killer_condition": "Descartar cuando sea (o esté)...",
+      "killer_condition_multiple": "Descartar cuando...",
+      "killer_value": "Valor para realizar el descarte",
+      "killer_value_multiple": "Opciones para realizar el descarte",
       "value_type": "Evaluar en base a...",
       "options": "Opciones de la pregunta"
     },
     "action": {
       "add": " Agregar pregunta",
       "add_options": "Añadir Opciones",
-      "select": "Selecciona",
+      "select": "Seleciona",
       "no_options": "Sin Opciones"
     }
   }
